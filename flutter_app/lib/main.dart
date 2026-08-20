@@ -59,7 +59,7 @@ class _LoginPageState extends State<LoginPage>{
         const SizedBox(height:20),
         SizedBox(width:double.infinity,height:52,child:FilledButton(
           onPressed:loading?null:login,child:Text(loading?'جارٍ الدخول...':'دخول')))
-      ]))));
+      ])))));
 }
 
 class HomePage extends StatefulWidget{
@@ -119,5 +119,5 @@ class _HomePageState extends State<HomePage>{
             title:Text('النموذج التجريبي'),
             content:Text('هذا التطبيق Prototype تعليمي. لا يستخدم أموالًا حقيقية ولا يمثل نظامًا مصرفيًا مرخصًا.'),
           )),icon:const Icon(Icons.security),label:const Text('الأمان والضوابط')),
-        ])));
+        ]))));
 }
